@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import CarCard from "./CarCard";
 import CarModal from "./CarModal";
-import bmwSedanMain from "@/assets/bmw-5-series-new-main.jpg";
-import bmwSedanInterior from "@/assets/bmw-5-series-interior.jpg";
+import mercedesExterior from "@/assets/mercedes-s-class-exterior.jpg";
+import mercedesInterior from "@/assets/mercedes-s-class-interior-new.jpg";
 import audiSuv from "@/assets/audi-q7-white.jpg";
 import teslaSedan from "@/assets/tesla-model-s-gray.jpg";
 import lexusSuv from "@/assets/lexus-rx-copper.jpg";
@@ -22,8 +22,8 @@ const Cars = () => {
       id: "bmw-5-series",
       name: "BMW 5 Series",
       price: "25,000 ₸",
-      image: bmwSedanMain,
-      images: [bmwSedanMain, bmwSedanInterior],
+      image: mercedesExterior,
+      images: [mercedesExterior, mercedesInterior],
       specs: [
         { label: t('spec.year'), value: "2023" },
         { label: t('spec.engine'), value: "2.0L Turbo" },
